@@ -25,7 +25,7 @@ app.use(cookieParser());
 
 const whitelist = process.env.CORS_ORIGIN
   ? JSON.parse(process.env.CORS_ORIGIN)
-  : ["*"];
+  : ["https://study-notion-2-pi.vercel.app/"];
 
 app.use(
   cors({
